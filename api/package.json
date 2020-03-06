@@ -1,0 +1,28 @@
+{
+  "name": "graphql-example-app",
+  "version": "1.0.0",
+  "description": "A simple GraphQL application to show how to implement it and use it in your next project :sunglasses:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-hahn/graphql-example-app.git"
+  },
+  "keywords": [],
+  "author": "Gabriel Hahn Schaeffer <gabriel_hahn@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabriel-hahn/graphql-example-app/issues"
+  },
+  "homepage": "https://github.com/gabriel-hahn/graphql-example-app#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
