@@ -1,6 +1,6 @@
 # GraphQL application
 
-A simple GraphQL application to show how to implement it and use it in your next project :sunglasses:
+A simple GraphQL application to show how to implement it in a straightforward way and use it in your next project :sunglasses:
 
 | Tech        |  Version   |
 |-------------|------------|
@@ -11,7 +11,7 @@ A simple GraphQL application to show how to implement it and use it in your next
 
 ## Authors
 
-[Gabriel Hahn Schaeffer](https://github.com/gabriel-hahn/)
+[Gabriel Hahn Schaeffer](https://github.com/gabriel-hahn/) | [FreeCodeCamp](https://github.com/freeCodeCamp)
 
 ## License
 
