@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/gabriel-hahn/graphql-example-app#readme",
   "dependencies": {
+    "cors": "2.8.4",
     "express": "^4.16.2",
     "express-graphql": "^0.6.12",
     "graphql": "^0.13.1",
