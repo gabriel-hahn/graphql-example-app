@@ -1,15 +1,7 @@
 import React, { Fragment } from 'react';
-import { gql } from 'apollo-boost';
 import { graphql } from 'react-apollo';
 
-const getBooksQuery = gql`
-  {
-    books {
-      id,
-      name
-    }
-  }
-`;
+import { getBooksQuery } from '../../queries/books';
 
 const BookList = ({ data }) => {
   const { loading, books } = data;
