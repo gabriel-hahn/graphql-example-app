@@ -3,12 +3,11 @@ import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 
 import BookList from './components/BookList';
+import './styles/global.css';
 
 const client = new ApolloClient({
   uri: 'http://localhost:4000/graphql'
 });
-
-import './styles/global.css';
 
 function App() {
   return (
