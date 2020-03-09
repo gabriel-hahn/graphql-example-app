@@ -4,6 +4,8 @@ import { graphql } from 'react-apollo';
 import { getBooksQuery } from '../../queries/books';
 import BookDetails from '../BookDetails';
 
+import './styles.css';
+
 const BookList = ({ data }) => {
   const { loading, books } = data;
   const [bookIdSelected, setBookIdSelected] = useState(null);

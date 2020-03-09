@@ -1,13 +1,15 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { graphql } from 'react-apollo';
 
 import { getBookQuery } from '../../queries/books';
+
+import './styles.css';
 
 const BookDetails = ({ data }) => {
   const book = data.book;
 
   return (
-    <Fragment>
+    <div className="book-details">
       { book ?
         <div>
           <h2>{book.name}</h2>
@@ -20,7 +22,7 @@ const BookDetails = ({ data }) => {
         </div>
         : <div>No book selected...</div>
       }
-    </Fragment>
+    </div>
   )
 };
 

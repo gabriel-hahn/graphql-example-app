@@ -4,6 +4,8 @@ import { graphql, compose } from 'react-apollo';
 import { getAuthorsQuery } from '../../queries/authors';
 import { addBookMutation, getBooksQuery } from '../../queries/books';
 
+import './styles.css';
+
 const AddBook = ({ getAuthorsQuery, addBookMutation }) => {
   const { loading, authors } = getAuthorsQuery;
 
