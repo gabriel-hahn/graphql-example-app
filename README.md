@@ -14,7 +14,7 @@ A simple GraphQL application to show how to implement it in a straightforward wa
 ## Demo
 
 <p align="center">
-    <img src="https://media.giphy.com/media/Y4tGIrOwWXbHVPnPq8/giphy.gif">
+    <img src="https://media.giphy.com/media/dy4bYrI1Acbaj1DZtr/giphy.gif">
 </p>
 
 ## Authors
